@@ -12,7 +12,7 @@ public class ScannerExam {
         int price=scan.nextInt();
         System.out.println("가격: "+price);
 
-        scan.nextLine();
+        scan.nextLine(); //버퍼 비우기
 
         System.out.print("저자를 입력하세요: ");
         String author=scan.nextLine();
