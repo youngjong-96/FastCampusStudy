@@ -20,10 +20,10 @@ public class IfElseTest {
             System.out.println(a+"은 12의 배수가 아닙니다.");
         }
 
-        //년도를 입력 받아서 해당 년도가 윤년인지(4의 배수이면서 100의 배수인 해이거나 400의 배수인 해) 판단하는 코드를 작성하세요.
+        //년도를 입력 받아서 해당 년도가 윤년인지(4의 배수이면서 100의 배수가 아닌 해이거나 400의 배수인 해) 판단하는 코드를 작성하세요.
         System.out.print("년도를 입력하세요: ");
         int year=scan.nextInt();
-        if(((year%4==0)&&(year%100==0))||year%400==0){
+        if(((year%4==0)&&(year%100!=0))||year%400==0){
             System.out.println(year+"년은 윤년입니다.");
         }else{
             System.out.println(year+"년은 윤년이 아닙니다.");
