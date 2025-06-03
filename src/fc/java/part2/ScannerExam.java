@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 import java.util.*;
 //파이썬은 input 안에다가 "저자를 입력하세요" 같은거 넣을 수 있는데 자바는 따로따로 넣어야해서 불편하네;;
 //키보드 쓴다고 처음에 scanner 구문 넣어주고 또 끝나면 scan.close()해야 하는 것도 구리다...

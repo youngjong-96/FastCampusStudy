@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 import java.util.Scanner;
 
 public class BreakContinueTest {
@@ -26,5 +28,3 @@ public class BreakContinueTest {
         System.out.println("1부터"+(i-1)+"까지의 3의 배수의 갯수는: "+count);
     }
 }
-
-

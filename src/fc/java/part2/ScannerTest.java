@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 import java.util.*;
 public class ScannerTest {
     public static void main(String[] args) {
